@@ -1,0 +1,27 @@
+# Build artifacts
+/build/
+/base/build/
+
+# Editor / IDE
+*.swp
+*.swo
+*.kate-swp
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

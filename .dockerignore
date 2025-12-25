@@ -1,0 +1,24 @@
+# Git metadata
+.git
+.gitmodules
+.gitignore
+
+# Build directories
+build
+base/build
+
+# Local virtualenvs
+.venv
+env
+venv
+
+# Editor / IDE
+.vscode
+.idea
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Docs output (if any)
+docs/*.pdf
