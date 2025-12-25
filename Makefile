@@ -1,5 +1,3 @@
-# muTau-PlatformIO/Makefile
-
 BASE_DIR      ?= base
 BOARD_NAME    ?= tang_nano_9k
 BOARD_ARGS    ?= NO_EXTERNAL_RAM=1
@@ -10,7 +8,7 @@ BBUILD_DIR    := build
 BINARY_NAME   := barebone
 BIN_PATH      := $(BBUILD_DIR)/$(BINARY_NAME).bin
 
-IMAGE_NAME    ?= mutau-platformio
+IMAGE_NAME    ?= mutau-barebone
 
 .PHONY: all
 all: build

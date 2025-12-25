@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(muTauPlatformIO C CXX ASM)  # Add ASM here
+project(muTauBarebone C CXX ASM)  # Add ASM here
 
 # Path passed in: base/build/tang_nano_9k
 if(NOT DEFINED LITEX_BUILD_DIR)

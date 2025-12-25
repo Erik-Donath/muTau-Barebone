@@ -1,3 +1,0 @@
-[submodule "base"]
-	path = base
-	url = git@github.com:Erik-Donath/muTau-RV32-SoC.git
