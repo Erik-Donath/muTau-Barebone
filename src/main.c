@@ -1,13 +1,15 @@
 // src/main.c
 
 #include <generated/csr.h>
+#include "main.h"
 
-int main(void) {
+#define wait(x) for(int w = 0; w < (x); w++)
+
+void main(void) {
     while (1) {
-        leds_out_write(0xAA);
-        for(int i = 0; i < 1000000; i++);
-        leds_out_write(0x55);
-        for(int i = 0; i < 1000000; i++);
+        for (uint32_t led = 0xFF; led > 0x00; led--) {
+            leds_out_write(led);
+            wait(WAIT_TIME);
+        }
     }
-    return 0;
 }
